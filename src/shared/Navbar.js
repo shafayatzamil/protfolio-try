@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div>
       {/* this navbar section for mobile */}
-      <div className=" md:hidden lg:hidden border-2 border-gray-300 mt-2 mb-4 mx-1 p-3 rounded-xl  flex justify-between items-center ">
+      <div className=" md:hidden lg:hidden border-2 border-gray-300  mt-2 mb-4 mx-1 p-3 rounded-xl  flex justify-between items-center ">
         <div className=" flex flex-row gap-4">
           {" "}
           {navItems.map((item) => (
@@ -58,10 +58,10 @@ const Navbar = () => {
               alt="nightmoodicons"
             />
           </div>{" "}
-          <button className="font-bold flex items-center gap-1 text-xs text-white bg-black px-3 py-2 rounded-md">
+          <button className="font-bold flex items-center gap-1 text-sm text-white bg-black px-3 py-2 rounded-md">
             {" "}
             <div className="text-white">
-              <Image src={plusICon} alt="plus icons" width={14} height={14} />
+              <Image src={plusICon} alt="plus icons" width={16} height={16} />
             </div>
             <h2> Hire me</h2>
           </button>
