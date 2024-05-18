@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div>
       {/* this navbar section for mobile */}
-      <div className=" md:hidden lg:hidden border-2 border-gray-300  mt-2 mb-4 mx-1 p-3 rounded-xl  flex justify-between items-center ">
+      <div className=" md:hidden lg:hidden border-2 border-gray-300 bg-white  mt-2 mb-4 mx-1 p-3 rounded-xl  flex justify-between items-center ">
         <div className=" flex flex-row gap-4">
           {" "}
           {navItems.map((item) => (

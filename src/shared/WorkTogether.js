@@ -6,12 +6,13 @@ import copyICon from "../assets/icons8-copy-48.png";
 const WorkTogether = () => {
   return (
     <div>
-      <div className=" p-4 mt-6 text-center">
+      <div className=" p-4 mt-6 text-center bg-white">
         <h2 className="text-3xl font-bold mt-8 mb-4 ">Let’s work together.</h2>
         <p className=" text-gray-500">
           Creating user experience and visual appealing design
         </p>
 
+        {/* hiring button and copy email button */}
         <div className="flex justify-center items-center gap-4 text-sm p-6 ">
           <button className="font-bold flex items-center gap-1  text-white bg-black px-3 py-2 rounded-md">
             {" "}
