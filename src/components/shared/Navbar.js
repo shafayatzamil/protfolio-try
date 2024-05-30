@@ -1,11 +1,11 @@
 "use clinet";
 
 import React from "react";
-import homeIcon from "../assets/icons8-home-48.png";
-import aboutMeIcon from "../assets/icons8-person-48.png";
-import projectIcon from "../assets/icons8-project-64.png";
-import nightMoodICon from "../assets/icons8-night-mode-99.png";
-import plusICon from "../assets/icons8-plus-64.png";
+import homeIcon from "../../assets/icons8-home-48.png";
+import aboutMeIcon from "../../assets/icons8-person-48.png";
+import projectIcon from "../../assets/icons8-project-64.png";
+import nightMoodICon from "../../assets/icons8-night-mode-99.png";
+import plusICon from "../../assets/icons8-plus-64.png";
 import Link from "next/link";
 import Image from "next/image";
 // import homeICon from "../assets/icons8-home-48.png";
@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div>
       {/* this navbar section for mobile */}
-      <div className=" md:hidden lg:hidden border-2 border-gray-300 bg-white  mt-2 mb-4 mx-1 p-3 rounded-xl  flex justify-between items-center ">
+      <div className=" md:hidden lg:hidden border-2 border-gray-300 bg-white  mt-2 mb-4 mx-2 p-4 rounded-xl  flex justify-between items-center ">
         <div className=" flex flex-row gap-4">
           {" "}
           {navItems.map((item) => (

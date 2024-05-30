@@ -1,12 +1,12 @@
 import React from "react";
-import dotIcon from "../assets/icons8-dot-48.png";
-import dotIcon1 from "../assets//icons8-circled-record-48.png";
+import dotIcon from "../../assets/icons8-dot-48.png";
+import dotIcon1 from "../../assets//icons8-circled-record-48.png";
 import Image from "next/image";
-import instagramIcon from "../assets/socialicons/icons8-instagram-50.png";
-import twitterIcon from "../assets/socialicons/icons8-twitterx-50.png";
-import fbIcon from "../assets/socialicons/icons8-fb-50.png";
-import linkedinIcon from "../assets/socialicons/icons8-linkedin-50.png";
-import whatsappIcon from "../assets/socialicons/icons8-whatsapp-50.png";
+import instagramIcon from "../../assets/socialicons/icons8-instagram-50.png";
+import twitterIcon from "../../assets/socialicons/icons8-twitterx-50.png";
+import fbIcon from "../../assets/socialicons/icons8-fb-50.png";
+import linkedinIcon from "../../assets/socialicons/icons8-linkedin-50.png";
+import whatsappIcon from "../../assets/socialicons/icons8-whatsapp-50.png";
 import Link from "next/link";
 
 const Footer = () => {

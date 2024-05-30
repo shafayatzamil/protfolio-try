@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import plusICon from "../assets/icons8-plus-64.png";
-import copyICon from "../assets/icons8-copy-48.png";
+import plusICon from "../../assets/icons8-plus-64.png";
+import copyICon from "../../assets/icons8-copy-48.png";
 
 const WorkTogether = () => {
   return (
