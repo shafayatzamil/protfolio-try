@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import plusICon from "../../assets/icons8-plus-64.png";
-import copyICon from "../../assets/icons8-copy-48.png";
+// import plusICon from "../../assets/icons8-plus-64.png";
+// import copyICon from "../../assets/icons8-copy-48.png";
+import HireButton from "../ui/HireButton/HireButton";
 
 const WorkTogether = () => {
   return (
@@ -13,7 +14,7 @@ const WorkTogether = () => {
         </p>
 
         {/* hiring button and copy email button */}
-        <div className="flex justify-center items-center gap-4 text-sm p-6 ">
+        {/* <div className="flex justify-center items-center gap-4 text-sm p-6 ">
           <button className="font-bold flex items-center gap-1  text-white bg-black px-3 py-2 rounded-md">
             {" "}
             <div className="text-white">
@@ -29,7 +30,8 @@ const WorkTogether = () => {
             </div>
             <h2> Copy Email</h2>
           </button>
-        </div>
+        </div> */}
+        <HireButton />
       </div>
     </div>
   );
