@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import WorkTogether from "@/components/shared/WorkTogether";
 import Footer from "@/components/shared/Footer";
+import HomePage from "./page";
+import HeaderPage from "@/components/ui/HeaderPage/HeaderPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,6 @@ export default function RootLayout({ children }) {
         <div className="mx-auto bg-gray-100 ">
           <Navbar />
           {children}
-          <WorkTogether />
           <Footer />
         </div>
       </body>
