@@ -10,7 +10,7 @@ import githubIcon from "../../../assets/skillicons/icons8-github-50.png";
 import firebaseIcon from "../../../assets/skillicons/icons8-firebase-48.png";
 import postmanIcon from "../../../assets/skillicons/icons8-postman-api-64.png";
 import nextjsIcon from "../../../assets/skillicons/icons8-nextjs-48.png";
-import reactIcons from "../../../assets/skillicons/firebase-logo.png";
+import reactIcons from "../../../assets/skillicons/icons8-react-js-50.png";
 
 const SkillPage = () => {
   return (
