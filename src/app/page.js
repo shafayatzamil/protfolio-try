@@ -8,11 +8,13 @@ import copyICon from "../assets/icons8-copy-48.png";
 import HireButton from "@/components/ui/HireButton/HireButton";
 import HeaderPage from "@/components/ui/HeaderPage/HeaderPage";
 import WorkTogether from "@/components/shared/WorkTogether";
+import SkillPage from "@/components/ui/SkillPage/SkillPage";
 
 const HomePage = () => {
   return (
     <div>
       <HeaderPage />
+      <SkillPage />
       <WorkTogether />
     </div>
   );
