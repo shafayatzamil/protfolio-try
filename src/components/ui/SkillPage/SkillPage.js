@@ -1,6 +1,7 @@
 import React from "react";
-import grayIcon from "../../../assets/grayIcon.png";
 import Image from "next/image";
+
+import grayIcon from "../../../assets/grayIcon.png";
 import nodejsIcon from "../../../assets/skillicons/icons8-nodejs-48.png";
 import expressICon from "../../../assets/skillicons/icons8-express-js-48.png";
 import typeScriptIcon from "../../../assets/skillicons/icons8-typescript-50.png";
@@ -9,8 +10,8 @@ import mongodbIcon from "../../../assets/skillicons/icons8-mongodb-48.png";
 import githubIcon from "../../../assets/skillicons/icons8-github-50.png";
 import firebaseIcon from "../../../assets/skillicons/icons8-firebase-48.png";
 import postmanIcon from "../../../assets/skillicons/icons8-postman-api-64.png";
-import nextjsIcon from "../../../assets/skillicons/icons8-nextjs-48.png";
-import reactIcons from "../../../assets/skillicons/icons8-react-js-50.png";
+import nextIcon from "../../../assets/skillicons/icons8-nextjs-48.png";
+// import reactIcon from "../../../assets/skillicons/icons8-react-js-50.png ";
 
 const SkillPage = () => {
   return (
@@ -25,7 +26,7 @@ const SkillPage = () => {
         </h4>
       </div>
       {/* all technology */}
-      <div className="grid grid-cols-5 gap-1 justify-items-center ">
+      <div className="grid grid-cols-6 gap-1 justify-items-center ">
         {/* <div>This is all skill logo</div> */}
         <div className="border-4  p-2">
           <Image src={nodejsIcon} alt="nodejsIcon"></Image>
@@ -52,11 +53,11 @@ const SkillPage = () => {
           <Image src={postmanIcon} alt="postmanIcon"></Image>
         </div>
         <div className="border-4    p-2">
-          <Image src={nextjsIcon} alt="postmanIcon"></Image>
+          <Image src={nextIcon} alt="postmanIcon"></Image>
         </div>
-        <div className="border-4   p-2">
-          <Image src={reactIcons} alt="postmanIcon"></Image>
-        </div>
+        {/* <div className="border-4   p-2">
+          <Image src={reactIcon} alt="postmanIcon"></Image>
+        </div> */}
       </div>
     </div>
   );
