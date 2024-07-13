@@ -28,14 +28,14 @@ const pRojectPage = () => {
         </div>
       </div>
       {/* project */}
-      <div className="border-2 rounded-lg my-2">
+      <div className="border-2 rounded-lg my-2 hover:shadow-md">
         {/* this is project */}
         <div className="flex justify-around items-center py-2 ">
-          <div>
+          <div className="border-2 p-2 rounded-full">
             <Image
               src={projectLogo}
-              weight={56}
-              height={56}
+              weight={46}
+              height={46}
               alt="projecticon"
             ></Image>
           </div>
