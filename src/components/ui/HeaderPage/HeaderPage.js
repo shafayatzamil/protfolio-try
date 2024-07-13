@@ -11,9 +11,9 @@ const HeaderPage = () => {
   return (
     <div>
       {/* header section  */}
-      <div className=" m-2  mt-6 border-2 rounded-lg p-2  ">
+      <div className=" m-2  mt-4 border-2 rounded-lg p-2  ">
         {/* short heading */}
-        <div className="flex justify-between items-center gap-1 mt-3">
+        <div className="flex justify-between items-center gap-1 mt-2">
           <div>
             <h4 className="text-gray-500 text-sm  font-bold flex items-center ">
               <span>
