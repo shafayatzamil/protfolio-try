@@ -1,10 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import plusICon from "../../../assets/icons8-plus-64.png";
 import copyICon from "../../../assets/icons8-copy-48.png";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const HireButton = () => {
-
   return (
     <div>
       <div className="flex justify-center items-center gap-4 text-sm p-6 ">

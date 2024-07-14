@@ -28,9 +28,43 @@ const pRojectPage = () => {
         </div>
       </div>
       {/* project */}
-      <div className="border-2 rounded-lg my-2 hover:shadow-md">
+      <div className="">
         {/* this is project */}
-        <div className="flex justify-around items-center py-2 ">
+        <div className="flex justify-around items-center py-2 border-2 rounded-lg my-2 hover:shadow-md ">
+          <div className="border-2 p-2 rounded-full">
+            <Image
+              src={projectLogo}
+              weight={46}
+              height={46}
+              alt="projecticon"
+            ></Image>
+          </div>
+          <div className=" text-gray-500 -ml-4">
+            <h2 className="text-lg font-bold">Marba labs</h2>
+            <h2 className="text-sm font-semibold">visual designing,branding</h2>
+          </div>
+          <div className="border-2 rounded-full">
+            <Image src={arrowIcon} alt="project arrow"></Image>
+          </div>
+        </div>
+        <div className="flex justify-around items-center py-2 border-2 rounded-lg my-2 hover:shadow-md ">
+          <div className="border-2 p-2 rounded-full">
+            <Image
+              src={projectLogo}
+              weight={46}
+              height={46}
+              alt="projecticon"
+            ></Image>
+          </div>
+          <div className=" text-gray-500 -ml-4">
+            <h2 className="text-lg font-bold">Marba labs</h2>
+            <h2 className="text-sm font-semibold">visual designing,branding</h2>
+          </div>
+          <div className="border-2 rounded-full">
+            <Image src={arrowIcon} alt="project arrow"></Image>
+          </div>
+        </div>
+        <div className="flex justify-around items-center py-2  border-2 rounded-lg my-2 hover:shadow-md">
           <div className="border-2 p-2 rounded-full">
             <Image
               src={projectLogo}
