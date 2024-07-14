@@ -21,7 +21,7 @@ const page = () => {
         <h2 className="text-4xl mt-4 mb-2 text-gray-700 font-bold ">
           It's shafayat zamil
         </h2>
-        <p className="text-gray-600 mb-4">
+        <p className="text-gray-600 text-md mb-4">
           I'm shafayat zamil, a backend developer with over 2 years of
           experience, currently residing in Jakarta, Indonesia. I have a deep
           passion for crafting purposeful interfaces and products. My main goal
@@ -30,7 +30,13 @@ const page = () => {
         </p>
 
         <div className="border-2 rounded-lg flex justify-center p-2 bg-gray-50">
-          <Image src={ownerImage} />
+          <Image src={ownerImage} alt="ownerimage" />
+        </div>
+
+        <div>
+          <h2 className="text-3xl  mt-4 mb-2 text-gray-700 font-bold">
+            More About Me
+          </h2>
         </div>
       </div>
     </div>

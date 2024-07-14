@@ -36,7 +36,7 @@ const Navbar = () => {
           {" "}
           {navItems.map((item) => (
             <Link key={item.route} href={item.pathname}>
-              <div className="">
+              <div className="hover:bg-gray-200 rounded-full">
                 <Image
                   src={item.image}
                   alt={item.route}
