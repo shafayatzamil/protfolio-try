@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex justify-start items-center gap-1">
             {" "}
             <Image src={dotIcon1} alt="doticon" height={16} width={16} />
-            <h2 className="text-lg font-bold text-gray-500">Follow Me</h2>
+            <h2 className="text-md font-bold text-gray-500">Follow Me</h2>
           </div>
           <div className="grid grid-cols-4 ">
             <Link href="https://www.linkedin.com/in/shafayatzamil/">
