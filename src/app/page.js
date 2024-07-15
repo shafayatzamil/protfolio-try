@@ -7,7 +7,7 @@ import plusICon from "../assets/icons8-plus-64.png";
 import copyICon from "../assets/icons8-copy-48.png";
 import HireButton from "@/components/ui/HireButton/HireButton";
 import HeaderPage from "@/components/ui/HeaderPage/HeaderPage";
-import WorkTogether from "@/components/shared/WorkTogether";
+
 import SkillPage from "@/components/ui/SkillPage/SkillPage";
 import ProjectPage from "@/components/ui/projectPage/ProjectPage";
 
@@ -17,7 +17,6 @@ const HomePage = () => {
       <HeaderPage />
       <SkillPage />
       <ProjectPage />
-      <WorkTogether />
     </div>
   );
 };

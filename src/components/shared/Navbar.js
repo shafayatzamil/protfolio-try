@@ -18,14 +18,14 @@ const Navbar = () => {
       image: homeIcon,
     },
     {
-      route: "About Me",
-      pathname: "/aboutme",
-      image: aboutMeIcon,
-    },
-    {
       route: "Projects",
       pathname: "/projects",
       image: projectIcon,
+    },
+    {
+      route: "About Me",
+      pathname: "/aboutme",
+      image: aboutMeIcon,
     },
   ];
   return (
