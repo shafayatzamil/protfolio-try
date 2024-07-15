@@ -69,7 +69,7 @@ const page = () => {
             will love it (i hope).
           </p>
 
-          <div className="">
+          <div className=" bg-gray-100 p-4 ">
             {/* this is project */}
             <div className="flex justify-around items-center py-2 border-2 rounded-lg my-2 hover:shadow-md ">
               <div className="border-2 p-2 rounded-full">
